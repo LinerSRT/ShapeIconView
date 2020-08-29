@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <com.liner.shapeiconview.view.ShapeIconView
+            android:id="@+id/shapeIconView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:elevation="4dp"
+            app:siv_color="@color/colorGreen"
+            app:siv_icon="@drawable/ic_baseline_adb_24"
+            app:siv_icon_size="small"
+            app:siv_shape="circle" />
+
+        <com.liner.shapeiconview.view.ShapeIconView
+            android:id="@+id/shapeIconView2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:elevation="4dp"
+            app:siv_color="@color/colorBlue"
+            app:siv_icon="@drawable/ic_baseline_airplanemode_inactive_24"
+            app:siv_icon_size="small"
+            app:siv_shape="rect" />
+
+        <com.liner.shapeiconview.view.ShapeIconView
+            android:id="@+id/shapeIconView3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:elevation="4dp"
+            app:siv_color="@color/colorRed"
+            app:siv_icon="@drawable/ic_baseline_attach_money_24"
+            app:siv_icon_size="small"
+            app:siv_shape="super_ellipse" />
+
+
+        <com.liner.shapeiconview.view.ShapeIconView
+            android:id="@+id/shapeIconView4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:elevation="4dp"
+            app:siv_color="@color/colorCyan"
+            app:siv_icon="@drawable/ic_baseline_close_24"
+            app:siv_icon_size="small"
+            app:siv_shape="tear_drop" />
+
+        <com.liner.shapeiconview.view.ShapeIconView
+            android:id="@+id/shapeIconView5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:elevation="4dp"
+            app:siv_color="@color/colorYellow"
+            app:siv_icon="@drawable/ic_baseline_favorite_24"
+            app:siv_icon_size="small"
+            app:siv_shape="shield" />
+
+        <com.liner.shapeiconview.view.ShapeIconView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:elevation="4dp"
+            app:siv_color="@color/colorPurple"
+            app:siv_icon="@drawable/ic_baseline_local_phone_24"
+            app:siv_icon_size="small"
+            app:siv_shape="lemon" />
+
+        <com.liner.shapeiconview.view.ShapeIconView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:elevation="4dp"
+            app:siv_color="@color/colorOrange"
+            app:siv_icon="@drawable/ic_baseline_zoom_in_24"
+            app:siv_icon_size="small"
+            app:siv_shape="round_rect" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
